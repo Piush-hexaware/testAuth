@@ -11,10 +11,6 @@ app.use(bodyParser.json());
 
 app.post("/webhook",function(req,res){
     console.log("data is",JSON.stringify(req.body))
-    let body = req.body
-     if(body.queryResult.intent.displayName == "trainBetweenStation") {
-        trainBetween.getTrainBetweenStation(req,res)
-    }
 });
 
 
