@@ -1,0 +1,15 @@
+{
+    "trainBetweenStation": {
+        "path": "https://api.railwayapi.com/v2/between/source/sourcestn/dest/deststn/date/dte/apikey/dkl42901wu/",
+        "path_second":"https://indianrailapi.com/api/v2/TrainBetweenStation/apikey/5dd845bf81ae8371d82fe6da10c449ea/From/source/To/dest",
+        "usage": "to get the train between station",
+        "ResMsg": {
+            "FROM_STATION_TEXT": "Please enter from station"
+            ,"FROM_STATION_SPEECH": "Please enter from station"
+            ,"TO_STATION_TEXT":"please enter to station"
+            ,"TO_STATION_SPEECH":"please enter to station"
+            ,"DATE_TEXT": "please enter the data (eg. <dd-mm-yyyy>/tomorrow/today/next monday/friday/)"
+            ,"DATE_SPEECH": "please enter the data (eg. <dd-mm-yyyy>/tomorrow/today/next monday/friday/)"
+        }
+    }
+}
